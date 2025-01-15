@@ -28,6 +28,6 @@ jobs:
       run: |
         npx sonar-scanner \
           -Dsonar.projectKey=my-project \
-          -Dsonar.sources=src \
+          -Dsonar.sources=. \
           -Dsonar.host.url=http://54.152.173.237:9000 \
           -Dsonar.login=$SONAR_TOKEN
