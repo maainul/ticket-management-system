@@ -29,5 +29,5 @@ jobs:
         npx sonar-scanner \
           -Dsonar.projectKey=my-project \
           -Dsonar.sources=src \
-          -Dsonar.host.url=http://<YOUR_SONARQUBE_SERVER>:9000 \
+          -Dsonar.host.url=http://54.152.173.237:9000 \
           -Dsonar.login=$SONAR_TOKEN
